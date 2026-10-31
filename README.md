@@ -1,5 +1,9 @@
 # GTA6 Factory — Shorts + vídeos longos (Windows 11)
 
+## Fase 2: pesquisa e fila de produção no Linux
+
+O novo `factory.py` conecta pesquisa em fontes primárias, roteiros com evidências, voz neural local gratuita e exportações para revisão humana. Os renderizadores e demos abaixo continuam disponíveis. Consulte [guia da Fase 2](docs/FASE2.md) e [resultados e pendências](docs/FASE2_RESULTADOS.md). Não há upload automático.
+
 **Versão MVP funcional**, com dois renderizadores independentes:
 
 - `make_short.py`: vídeo vertical **1080×1920 / 30 fps** (Short). O vídeo de demonstração original permanece disponível.

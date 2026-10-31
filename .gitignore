@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+*.log
+work/
+output/
+data/
+models/
+demo_audio/
+demo_audio_long/
+.cache/

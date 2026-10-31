@@ -1,0 +1,7 @@
+{
+  "model": "../models/pt_BR-voice-medium.onnx",
+  "model_sha256": "PREENCHA_SHA256_DO_MODELO_VERIFICADO",
+  "config_sha256": "PREENCHA_SHA256_DO_ARQUIVO_ONNX_JSON",
+  "license_url": "URL_DA_LICENCA_DESTA_VOZ",
+  "license_notes": "Registre licença, atribuição e permissão comercial da voz específica, após ler o MODEL_CARD. A licença do Piper não substitui a do modelo."
+}

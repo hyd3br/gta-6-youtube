@@ -1,0 +1,2 @@
+# Optional, free local neural speech. Existing demo/files modes need no new package.
+piper-tts==1.8.0
