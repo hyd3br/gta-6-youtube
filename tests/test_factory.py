@@ -62,6 +62,10 @@ class ResearchTests(unittest.TestCase):
     def test_non_gta_page_is_not_used(self):
         page=parse_page('<title>Other game</title><p>'+('PlayStation 5 for some other game. '*10)+'</p>','https://www.take2games.com/ir/news')
         self.assertEqual(extract_facts(page),[])
+    def test_corporate_index_does_not_attribute_neighboring_game_platforms(self):
+        raw='<title>Press releases</title><p>Rockstar Games Announces Grand Theft Auto VI.</p><p>Rollerdrome Now Available on Xbox Series X|S and Windows PC. This is a synthetic offline index fixture, not evidence for production.</p>'
+        page=parse_page(raw,'https://www.take2games.com/ir/press-releases')
+        self.assertEqual(extract_facts(page),[])
     def test_expired_facts_are_not_used(self):
         page=self.add()
         page['fetched_at']=(datetime.now(timezone.utc)-timedelta(hours=49)).isoformat()

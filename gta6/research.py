@@ -152,6 +152,12 @@ def extract_facts(page):
         raise ValueError('Proveniência primária inválida.')
     # Facts must be in a GTA VI-specific page/body, not an unrelated corporate index.
     text = page['text']
+    if urlsplit(page['url']).path.rstrip('/').lower() in (
+        '/newswire', '/ir/news', '/ir/press-releases', '/news-releases'
+    ):
+        # An index can place a GTA headline next to another game's platforms.
+        # Follow its article links; never attribute neighboring entries to GTA VI.
+        return []
     if not re.search(r'Grand Theft Auto VI|GTA\s*(?:VI|6)|/VI(?:/|$)', text + ' ' + page['url'], re.I):
         return []
     facts = []

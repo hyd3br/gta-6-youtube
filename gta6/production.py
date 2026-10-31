@@ -168,7 +168,7 @@ def render(script,folder,*,preview=False,preset='veryfast'):
         captions=work/f'captions_{i:02d}.srt'
         captions.write_text(srt_text(cues),encoding='utf-8')
         # A gentle moving crop plus short fades, hard cuts between editorial scenes.
-        style=("Fontname=DejaVu Sans,Fontsize=9,Outline=1,Shadow=0,Alignment=2,MarginV=42,MarginL=18,MarginR=18"
+        style=("Fontname=DejaVu Sans,Fontsize=9,Outline=1,Shadow=0,Alignment=2,MarginV=60,MarginL=18,MarginR=18"
                if is_short else "Fontname=DejaVu Sans,Fontsize=19,Outline=2,Shadow=0,Alignment=2,MarginV=36")
         relative=captions.relative_to(ROOT).as_posix()
         vf=(f'scale={w+40}:{h+40},crop={w}:{h}:x=20+18*sin(t*0.30):y=20+18*cos(t*0.23),'

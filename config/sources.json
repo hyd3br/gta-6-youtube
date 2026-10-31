@@ -2,7 +2,7 @@
   "seeds": [
     "https://www.rockstargames.com/VI/",
     "https://www.rockstargames.com/newswire",
-    "https://www.take2games.com/ir/news"
+    "https://www.take2games.com/ir/press-releases"
   ],
   "max_pages": 12
 }
