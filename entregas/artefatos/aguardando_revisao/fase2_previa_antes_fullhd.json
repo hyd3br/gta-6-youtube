@@ -1,0 +1,51 @@
+{
+  "title": "GTA 6: 8 perguntas que podem definir a experiência",
+  "description": "Análise editorial original sobre perguntas que merecem respostas verificáveis a respeito de GTA 6. Este roteiro é ilustrativo: antes de publicar, atualize as fontes e revise as informações com materiais oficiais. Voz sintética por IA.\n\nFontes consultadas:\n- Grand Theft Auto VI — Rockstar Games (site oficial): https://www.rockstargames.com/VI\n- GTA VI — galeria de mídias oficiais: https://www.rockstargames.com/VI/media\n\nEste vídeo contém narração sintética gerada por IA.",
+  "tags": [
+    "gta 6",
+    "gta vi",
+    "grand theft auto vi",
+    "curiosidades gta 6",
+    "análise gta 6"
+  ],
+  "sources": [
+    {
+      "title": "Grand Theft Auto VI — Rockstar Games (site oficial)",
+      "url": "https://www.rockstargames.com/VI",
+      "type": "oficial",
+      "checked": "2026-10-31"
+    },
+    {
+      "title": "GTA VI — galeria de mídias oficiais",
+      "url": "https://www.rockstargames.com/VI/media",
+      "type": "oficial",
+      "checked": "2026-10-31"
+    }
+  ],
+  "chapters": [
+    {
+      "time_seconds": 0.0,
+      "label": "Abertura"
+    },
+    {
+      "time_seconds": 51.5,
+      "label": "O mapa"
+    }
+  ],
+  "duration_seconds": 102.21,
+  "resolution": "640x360",
+  "frames_per_second": 24,
+  "speech_provider": "bundled",
+  "video": "output/aguardando_revisao/fase2_previa_antes_fullhd.mp4",
+  "thumbnail": "output/aguardando_revisao/fase2_previa_antes_fullhd_thumbnail.jpg",
+  "subtitles": "output/aguardando_revisao/fase2_previa_antes_fullhd.srt",
+  "status": "AGUARDANDO_REVISAO_HUMANA",
+  "automatic_upload": false,
+  "warnings": [
+    "Duração 1.7 minutos fora da meta editorial de 6–12 minutos; revisar conteúdo e ritmo.",
+    "Prévia parcial: não é o vídeo completo para publicação.",
+    "Narração de demonstração com voz robótica. Trocar por TTS natural antes de publicar.",
+    "Legendas distribuídas proporcionalmente à fala; revisar a sincronização e corrigir no editor se necessário.",
+    "Conferir informações e direitos de todas as mídias antes de qualquer publicação."
+  ]
+}

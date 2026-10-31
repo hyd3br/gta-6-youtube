@@ -1,0 +1,149 @@
+{
+  "text": "Mas atenção: isso não significa que todas as músicas das rádios sejam deles. O próprio site menciona rádio, trilha sonora e score separadamente.",
+  "word_events": [
+    {
+      "position": 0,
+      "length": 3,
+      "start": 0.0
+    },
+    {
+      "position": 4,
+      "length": 7,
+      "start": 0.255
+    },
+    {
+      "position": 13,
+      "length": 4,
+      "start": 1.309
+    },
+    {
+      "position": 18,
+      "length": 3,
+      "start": 1.583
+    },
+    {
+      "position": 22,
+      "length": 9,
+      "start": 1.777
+    },
+    {
+      "position": 32,
+      "length": 3,
+      "start": 2.603
+    },
+    {
+      "position": 36,
+      "length": 5,
+      "start": 2.777
+    },
+    {
+      "position": 42,
+      "length": 2,
+      "start": 3.191
+    },
+    {
+      "position": 45,
+      "length": 7,
+      "start": 3.408
+    },
+    {
+      "position": 53,
+      "length": 3,
+      "start": 4.007
+    },
+    {
+      "position": 57,
+      "length": 6,
+      "start": 4.284
+    },
+    {
+      "position": 64,
+      "length": 5,
+      "start": 4.78
+    },
+    {
+      "position": 70,
+      "length": 5,
+      "start": 5.154
+    },
+    {
+      "position": 77,
+      "length": 1,
+      "start": 5.988
+    },
+    {
+      "position": 79,
+      "length": 7,
+      "start": 6.082
+    },
+    {
+      "position": 87,
+      "length": 4,
+      "start": 6.599
+    },
+    {
+      "position": 92,
+      "length": 8,
+      "start": 7.022
+    },
+    {
+      "position": 101,
+      "length": 5,
+      "start": 7.676
+    },
+    {
+      "position": 108,
+      "length": 6,
+      "start": 8.343
+    },
+    {
+      "position": 115,
+      "length": 6,
+      "start": 8.763
+    },
+    {
+      "position": 122,
+      "length": 1,
+      "start": 9.421
+    },
+    {
+      "position": 124,
+      "length": 5,
+      "start": 9.535
+    },
+    {
+      "position": 130,
+      "length": 13,
+      "start": 9.899
+    }
+  ],
+  "cues": [
+    {
+      "text": "Mas atenção: isso não significa",
+      "start": 0.0,
+      "end": 2.603
+    },
+    {
+      "text": "que todas as músicas das",
+      "start": 2.603,
+      "end": 4.284
+    },
+    {
+      "text": "rádios sejam deles. O próprio",
+      "start": 4.284,
+      "end": 6.599
+    },
+    {
+      "text": "site menciona rádio, trilha sonora",
+      "start": 6.599,
+      "end": 9.421
+    },
+    {
+      "text": "e score separadamente.",
+      "start": 9.421,
+      "end": 11.100544217687075
+    }
+  ],
+  "seconds": 11.100544217687075,
+  "rate_wpm": 145
+}

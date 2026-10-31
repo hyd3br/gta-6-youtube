@@ -1,0 +1,15 @@
+{
+  "persistence": "not_saved_draft_not_editable",
+  "config": {
+    "network": {
+      "allowed_domains": [
+        "huggingface.co",
+        "ir.take2games.com",
+        "rockstargames.com",
+        "www.rockstargames.com",
+        "www.take2games.com",
+        "us.aws.cdn.hf.co"
+      ]
+    }
+  }
+}

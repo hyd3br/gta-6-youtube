@@ -1,0 +1,54 @@
+[
+  {
+    "name": "rockstar_vi",
+    "url": "https://www.rockstargames.com/VI/",
+    "checked_at": "2026-10-31T22:12:19.877284+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "size": 1205725,
+    "final_url": "https://www.rockstargames.com/VI",
+    "sha256": "968929ec98344246ba903d877c5f2a4d0e2878bfd10424c86cec113621750455",
+    "title": "Grand Theft Auto VI - Rockstar Games"
+  },
+  {
+    "name": "rockstar_newswire",
+    "url": "https://www.rockstargames.com/newswire",
+    "checked_at": "2026-10-31T22:12:19.877885+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "size": 4133,
+    "final_url": "https://www.rockstargames.com/newswire",
+    "sha256": "454a14300759230e2ba90c172e816db0874669d98fe4d98e81a03bf23346be91",
+    "title": "Newswire - Rockstar Games"
+  },
+  {
+    "name": "take2_news",
+    "url": "https://www.take2games.com/ir/news",
+    "checked_at": "2026-10-31T22:12:19.878360+00:00",
+    "status": 404,
+    "error": "HTTPError",
+    "message": "HTTP Error 404: Not Found",
+    "body_preview": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/css/266122f019e4ff2a.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/css/76b121b7f0a1488e.css\" data-precedence=\"next\"/><style data-precedence=\"medium\" data-href=\"legacy-theme 5hinJ40jyFX3zSdrNaJoI6\">\n    :root {\n      /* default theme + overrides from config */\n      --color-white-rgb: 255, 255, 255;\n--color-black-rgb: 0, 0, 0;\n--color-primary-rgb: 7, 95, 73;\n--color-success-rgb: 56, 135, 30;\n--color-"
+  },
+  {
+    "name": "take2_ir",
+    "url": "https://ir.take2games.com/news-releases",
+    "checked_at": "2026-10-31T22:12:19.878785+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "size": 516932,
+    "final_url": "https://www.take2games.com/ir/press-releases",
+    "sha256": "b289e8c6376e2842916f0a54c6e843bbf99b48f9faf714070c67f412ca797032",
+    "title": "Press Releases | Take-Two Interactive Software, Inc."
+  },
+  {
+    "name": "voice_metadata",
+    "url": "https://huggingface.co/api/models/rhasspy/piper-voices/tree/main/pt/pt_BR/faber/medium?expand=true",
+    "checked_at": "2026-10-31T22:12:19.879389+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 3429,
+    "final_url": "https://huggingface.co/api/models/rhasspy/piper-voices/tree/main/pt/pt_BR/faber/medium?expand=true",
+    "sha256": "2c258f285ee060ebb246572504b4dddd7eee6ec60a8703cf202aa274328b3795"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-10-31T22:24:21.959895+00:00",
+  "automatic_upload": false,
+  "status": "AGUARDANDO_REVISAO_HUMANA",
+  "artifact_sha256": {
+    "revisao.md": "f8b413f2e936289386f78a347a387f68bc4140750f4d4d76a2c98be8cba6cc6e",
+    "validacao.json": "4a68860310a9d9c510c3ad4aaedb92d1f52b2aef0d0e2982c14b44804c24e93a",
+    "metadata.json": "bfbd63ea5ef34ce13fd9dc27b4e43bcdf668ca2c439ce4d83b1ed02cf3dfd41b",
+    "fila_revisao.sqlite3": "a560dcd0c1d89f536cfefa3cc470d0cbef1c16a573d5e57d51de951ccdffcb1b",
+    "resultado_fase3.md": "066a37c297af5817554e6df78b5249c2fe207319d0e82a36362ab47673c79bc7",
+    "LEIA_ME.txt": "3e6f1efbd57fbd5e4fc8be077b658c2a2fc30bb06575ceed07291abb213f540b",
+    "thumbnail.jpg": "f76a0a9e492dd13892da23551e2b44cc3cf70a94879b317cff2aba2b030118b8",
+    "capitulos.txt": "13c3657cd476eeeecc229a54437347c189600298b514876a77fe8d7d9d3b3f59",
+    "pending_network_change.json": "03c391bc6e4fd2b1192268e3e8d508a157177b5dc050e4627acb9c15fb4bc10e",
+    "codigo_fase3.patch": "13cffcd1207ca9e020c647ad87eb02601852dc71c3876cb48fd3b105afed1a9e",
+    "roteiro.json": "444796914f1e4c6ef911dcefbfba98fc9e61d70896aab666c72e2ec2db2c6d7f",
+    "descricao.txt": "9a1542133ed792b7f8e2b35a80f50ece744629b23b1a05206a9ac76f57cd17ef",
+    "video.srt": "b7e284afba57d395d6eab2ed7b2b8164bb3a82d11698fc27da42cba264b35bf8",
+    "video.mp4": "423b118bd4e53a6ca9f6aaaec2805904a6ed00c5c96e65af98efb0d179494807",
+    "access_checks.json": "f2565991a75f4756d08577ac4a7b2e0d512a16c5be131646359d0c1f6e33e0d0",
+    "fontes.md": "9adc54d6da92ac9fa6060ec506b135ea1fa382526e20d5585772a1f241d06b13"
+  },
+  "code_commit": "cc9856923a43b525d2442e529f55b56d3a416b01"
+}

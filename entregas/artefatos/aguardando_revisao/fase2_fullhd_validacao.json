@@ -1,0 +1,15 @@
+{
+  "video": "output/aguardando_revisao/fase2_longo_completo_1080p.mp4",
+  "duration_seconds": 511.566667,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "complete_decode": "passed",
+  "tts": "bundled_demo_robotic",
+  "editorial_verification": "not_new_research",
+  "automatic_upload": false
+}

@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-31T22:22:41.704778+00:00",
+  "duration_seconds": 49.0,
+  "resolution": "1080x1920",
+  "fps": 30,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "complete_video_audio_decode": "passed",
+  "script_words": 108,
+  "caption_cues": 23,
+  "caption_timing": "espeak_word_start_events_grouped_5",
+  "visual_inspection": "sampled_frames_passed_after_caption_footer_spacing_fix",
+  "voice": "espeak_ng_local_fallback_robotic_not_neural",
+  "paid_api_calls": 0,
+  "automatic_upload": false,
+  "status": "AGUARDANDO_REVISAO_HUMANA"
+}

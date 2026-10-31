@@ -1,0 +1,18 @@
+[
+  {
+    "id": "short-justice-20261029",
+    "format": "short",
+    "topic_key": "justice-score-20261029",
+    "claim_ids": [
+      "335bda53b5cf5ccb2da5",
+      "0db78725cde689c78bb5",
+      "52934287ece8d3ce3afe"
+    ],
+    "script": "entregas/artefatos/aguardando_revisao/short_justice_20261031/roteiro.json",
+    "status": "AGUARDANDO_REVISAO_HUMANA",
+    "created_at": "2026-10-31T22:19:58.355453+00:00",
+    "render": "entregas/artefatos/aguardando_revisao/short_justice_20261031/manifest.json",
+    "automatic_upload": false,
+    "preview": false
+  }
+]

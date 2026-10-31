@@ -1,0 +1,139 @@
+{
+  "text": "Em vinte e nove de outubro, a Rockstar destacou o anúncio: o duo francês Justice compõe a trilha original do jogo.",
+  "word_events": [
+    {
+      "position": 0,
+      "length": 2,
+      "start": 0.0
+    },
+    {
+      "position": 3,
+      "length": 5,
+      "start": 0.227
+    },
+    {
+      "position": 9,
+      "length": 1,
+      "start": 0.875
+    },
+    {
+      "position": 11,
+      "length": 4,
+      "start": 0.984
+    },
+    {
+      "position": 16,
+      "length": 2,
+      "start": 1.282
+    },
+    {
+      "position": 19,
+      "length": 7,
+      "start": 1.404
+    },
+    {
+      "position": 28,
+      "length": 1,
+      "start": 2.178
+    },
+    {
+      "position": 30,
+      "length": 8,
+      "start": 2.304
+    },
+    {
+      "position": 39,
+      "length": 8,
+      "start": 2.874
+    },
+    {
+      "position": 48,
+      "length": 1,
+      "start": 3.528
+    },
+    {
+      "position": 50,
+      "length": 7,
+      "start": 3.644
+    },
+    {
+      "position": 59,
+      "length": 1,
+      "start": 4.579
+    },
+    {
+      "position": 61,
+      "length": 3,
+      "start": 4.672
+    },
+    {
+      "position": 65,
+      "length": 7,
+      "start": 4.917
+    },
+    {
+      "position": 73,
+      "length": 7,
+      "start": 5.578
+    },
+    {
+      "position": 81,
+      "length": 6,
+      "start": 6.173
+    },
+    {
+      "position": 88,
+      "length": 1,
+      "start": 6.711
+    },
+    {
+      "position": 90,
+      "length": 6,
+      "start": 6.832
+    },
+    {
+      "position": 97,
+      "length": 8,
+      "start": 7.245
+    },
+    {
+      "position": 106,
+      "length": 2,
+      "start": 7.925
+    },
+    {
+      "position": 109,
+      "length": 4,
+      "start": 8.083
+    }
+  ],
+  "cues": [
+    {
+      "text": "Em vinte e nove de",
+      "start": 0.0,
+      "end": 1.404
+    },
+    {
+      "text": "outubro, a Rockstar destacou o",
+      "start": 1.404,
+      "end": 3.644
+    },
+    {
+      "text": "anúncio: o duo francês Justice",
+      "start": 3.644,
+      "end": 6.173
+    },
+    {
+      "text": "compõe a trilha original do",
+      "start": 6.173,
+      "end": 8.083
+    },
+    {
+      "text": "jogo.",
+      "start": 8.083,
+      "end": 8.494603174603174
+    }
+  ],
+  "seconds": 8.494603174603174,
+  "rate_wpm": 145
+}

@@ -1,0 +1,287 @@
+{
+  "project": "GTA6 Canal Completo",
+  "base_code_commit": "cc9856923a43b525d2442e529f55b56d3a416b01",
+  "phase2_commit": "7f70d1587eee2a11e136ce03d55b84fb71e63ac8",
+  "automatic_youtube_upload": false,
+  "status": "AGUARDANDO_REVISAO_HUMANA",
+  "files": [
+    {
+      "path": "entregas/ambiente/install_cloud.sh",
+      "bytes": 2382,
+      "sha256": "667b98b69d175fb1efad401f4d86aace64d4c5137d321c2bdd0ad5233ef371d9"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_fullhd_frame.jpg",
+      "bytes": 83099,
+      "sha256": "fa5374a9b824fc5f830971963d7105003ecd752ab9ad616093b24a36e26b0f79"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_fullhd_validacao.json",
+      "bytes": 337,
+      "sha256": "c425bc3b1c88360db479a917868b6c98e3134ae270cdb1fb10ba8623eb36a4f4"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_longo_completo_1080p.json",
+      "bytes": 2553,
+      "sha256": "5256377d2210146eb1df412300cd782ac21cb2a7317b2635a7157d84264c61ba"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_longo_completo_1080p.mp4",
+      "bytes": 17231699,
+      "sha256": "4c70f15c0ccc6cdcf7daba9967d10aaeac72000134dd7bd7439513b98d1df62b"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_longo_completo_1080p.srt",
+      "bytes": 10138,
+      "sha256": "1a2290637a4647ea8b796cbafb07661494c66320c631118d49f20ef1df1d963a"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_longo_completo_1080p_capitulos.txt",
+      "bytes": 166,
+      "sha256": "cc3d9ded02529e4de27f1ff5e360b7dc7a66b13dab5044b656a5c39cbd23c835"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_longo_completo_1080p_revisao.md",
+      "bytes": 1029,
+      "sha256": "5d5d4282b8d35b1cc07e5b8f4990239ef8f1e50c7fe3f4052d2beff047eaf708"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_longo_completo_1080p_thumbnail.jpg",
+      "bytes": 142775,
+      "sha256": "0d154a2213c74df2075b4ec0e122754649d803027990b5464431d1c4912d8e5a"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_previa_antes_fullhd.json",
+      "bytes": 2153,
+      "sha256": "6063781f7b2415538e49a60c8ee2f4075313f97678c65e4899d9f8538a9f3703"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_previa_antes_fullhd.mp4",
+      "bytes": 2308451,
+      "sha256": "cad9adda25bb0c9f1605b690ad9c6a33ee9eadcddc5687dae3b1046f4113f4d5"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_previa_antes_fullhd.srt",
+      "bytes": 1999,
+      "sha256": "96f9cdb2f1952e24dcd7822a49f9527d4a3f58ec6fed9d1bcae3f4a772925282"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_previa_antes_fullhd_capitulos.txt",
+      "bytes": 28,
+      "sha256": "b08ad44c18b4895abb6128fa310e9db6a9d860918020a9f2032ce8cb8d21f127"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_previa_antes_fullhd_revisao.md",
+      "bytes": 1046,
+      "sha256": "ef643a90413fe493694bfa7142dd3d0c5d0939463bbe6a1db95d971ea4d7eb8f"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/fase2_previa_antes_fullhd_thumbnail.jpg",
+      "bytes": 142775,
+      "sha256": "0d154a2213c74df2075b4ec0e122754649d803027990b5464431d1c4912d8e5a"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/onboarding_frame.jpg",
+      "bytes": 24776,
+      "sha256": "e6b26b4a371bffa2d75230495b2da20f986aca03852e9d57eee1fff7c6b0eec5"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/onboarding_preview_longo.json",
+      "bytes": 2150,
+      "sha256": "e71b8fa68f35364b5719f37ada1b1f2359844585f1d472533b66553af720e959"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/onboarding_preview_longo.mp4",
+      "bytes": 2308451,
+      "sha256": "cad9adda25bb0c9f1605b690ad9c6a33ee9eadcddc5687dae3b1046f4113f4d5"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/onboarding_preview_longo.srt",
+      "bytes": 1999,
+      "sha256": "96f9cdb2f1952e24dcd7822a49f9527d4a3f58ec6fed9d1bcae3f4a772925282"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/onboarding_preview_longo_capitulos.txt",
+      "bytes": 28,
+      "sha256": "b08ad44c18b4895abb6128fa310e9db6a9d860918020a9f2032ce8cb8d21f127"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/onboarding_preview_longo_revisao.md",
+      "bytes": 1046,
+      "sha256": "ef643a90413fe493694bfa7142dd3d0c5d0939463bbe6a1db95d971ea4d7eb8f"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/onboarding_preview_longo_thumbnail.jpg",
+      "bytes": 142775,
+      "sha256": "0d154a2213c74df2075b4ec0e122754649d803027990b5464431d1c4912d8e5a"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/LEIA_ME.txt",
+      "bytes": 626,
+      "sha256": "3e6f1efbd57fbd5e4fc8be077b658c2a2fc30bb06575ceed07291abb213f540b"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/access_checks.json",
+      "bytes": 2653,
+      "sha256": "f2565991a75f4756d08577ac4a7b2e0d512a16c5be131646359d0c1f6e33e0d0"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/capitulos.txt",
+      "bytes": 179,
+      "sha256": "13c3657cd476eeeecc229a54437347c189600298b514876a77fe8d7d9d3b3f59"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/codigo_fase3.patch",
+      "bytes": 9629,
+      "sha256": "13cffcd1207ca9e020c647ad87eb02601852dc71c3876cb48fd3b105afed1a9e"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/descricao.txt",
+      "bytes": 700,
+      "sha256": "9a1542133ed792b7f8e2b35a80f50ece744629b23b1a05206a9ac76f57cd17ef"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/fila_revisao.sqlite3",
+      "bytes": 36864,
+      "sha256": "a560dcd0c1d89f536cfefa3cc470d0cbef1c16a573d5e57d51de951ccdffcb1b"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/fontes.md",
+      "bytes": 2709,
+      "sha256": "9adc54d6da92ac9fa6060ec506b135ea1fa382526e20d5585772a1f241d06b13"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/manifest.json",
+      "bytes": 1655,
+      "sha256": "0071e9695137f47bd1ef4b975083756cb4f1948a0c5d79b7447f56d6cff86a2c"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/metadata.json",
+      "bytes": 11691,
+      "sha256": "bfbd63ea5ef34ce13fd9dc27b4e43bcdf668ca2c439ce4d83b1ed02cf3dfd41b"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/narracao/voice_01.timing.json",
+      "bytes": 1609,
+      "sha256": "b4b564535b91fed0e3ba8ad1a06aa2c766ee0c67ad21e4c8e9c4414421d37f0a"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/narracao/voice_01.wav",
+      "bytes": 264312,
+      "sha256": "f1758ff46caa5135c7ff3ebf422ec145dcbf97cfecd71401545d4fb772f8b244"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/narracao/voice_02.timing.json",
+      "bytes": 2278,
+      "sha256": "18d15c15a8f81c78fd47116a046076c7d23bbdeb2ef8970c9c447ca3f7870fcd"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/narracao/voice_02.wav",
+      "bytes": 374656,
+      "sha256": "44072d52591b07583b982a0b6800073f6939cf697d0e9584c07a0b460e80984d"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/narracao/voice_03.timing.json",
+      "bytes": 2503,
+      "sha256": "f6d1db4abfc44019516e63ff7451432a21c2dccbfaa9663dacd5871471d27cc5"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/narracao/voice_03.wav",
+      "bytes": 489578,
+      "sha256": "0b63575e431c7e427ef663f621fc54786eb3f251ebc33380dd7fb5d5d464992d"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/narracao/voice_04.timing.json",
+      "bytes": 2565,
+      "sha256": "67ac608e0383b34b5c1e23b87a9768d443dd1d68bdcefb896ba13459b1f70668"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/narracao/voice_04.wav",
+      "bytes": 474718,
+      "sha256": "8783f0968f1fb97d45fe54ee789c5bc350a393a2fd37fe2f0d5fba126fe18268"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/narracao/voice_05.timing.json",
+      "bytes": 2648,
+      "sha256": "32b87aa72552ee3207b09a72197bae5c0b5f073c09f22abf1197a774a383b0f4"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/narracao/voice_05.wav",
+      "bytes": 497780,
+      "sha256": "b2c1df77453d3c90708b0ef0ba67fdbec4f27144fbd0dcaf8d87fe9cb0e25e33"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/pending_network_change.json",
+      "bytes": 302,
+      "sha256": "03c391bc6e4fd2b1192268e3e8d508a157177b5dc050e4627acb9c15fb4bc10e"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/resultado_fase3.md",
+      "bytes": 5667,
+      "sha256": "066a37c297af5817554e6df78b5249c2fe207319d0e82a36362ab47673c79bc7"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/revisao.md",
+      "bytes": 290,
+      "sha256": "f8b413f2e936289386f78a347a387f68bc4140750f4d4d76a2c98be8cba6cc6e"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/roteiro.json",
+      "bytes": 10914,
+      "sha256": "444796914f1e4c6ef911dcefbfba98fc9e61d70896aab666c72e2ec2db2c6d7f"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/thumbnail.jpg",
+      "bytes": 131241,
+      "sha256": "f76a0a9e492dd13892da23551e2b44cc3cf70a94879b317cff2aba2b030118b8"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/validacao.json",
+      "bytes": 543,
+      "sha256": "4a68860310a9d9c510c3ad4aaedb92d1f52b2aef0d0e2982c14b44804c24e93a"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/video.mp4",
+      "bytes": 2289768,
+      "sha256": "423b118bd4e53a6ca9f6aaaec2805904a6ed00c5c96e65af98efb0d179494807"
+    },
+    {
+      "path": "entregas/artefatos/aguardando_revisao/short_justice_20261031/video.srt",
+      "bytes": 1424,
+      "sha256": "b7e284afba57d395d6eab2ed7b2b8164bb3a82d11698fc27da42cba264b35bf8"
+    },
+    {
+      "path": "entregas/artefatos/onboarding_short.json",
+      "bytes": 607,
+      "sha256": "27f7eb312fbfea641796b190b94008e7788a3a141197f4be924dcbd0d6ff4812"
+    },
+    {
+      "path": "entregas/artefatos/onboarding_short.mp4",
+      "bytes": 1074714,
+      "sha256": "00022810d44bdc1f0dcbb46578f3a29f6c42d043b869e283776ee1dedc16b621"
+    },
+    {
+      "path": "entregas/fila_editorial.json",
+      "bytes": 561,
+      "sha256": "8e88a656f099c6ccf6a00ee87d5a0897cc69e183a09aca4af3d4786a4ebb1cd0"
+    },
+    {
+      "path": "entregas/receitas/diagnosticar_espeak.py",
+      "bytes": 1474,
+      "sha256": "b1e6a8d23c2e3f7ff66f578d6215fd6d0f380ef7276cca189929c7af09ce64d4"
+    },
+    {
+      "path": "entregas/receitas/produzir_short_justice.py",
+      "bytes": 13904,
+      "sha256": "c63c9e50485f798efa490c3ec3e2861f63251369a96c1a95fe2233e84e8d692c"
+    }
+  ],
+  "excluded": [
+    "Credenciais e arquivos .env",
+    "Dependências e caches instalados",
+    "Intermediários de renderização e versões descartadas",
+    "HTML integral de terceiros coletado para auditoria privada",
+    "Backups Git redundantes e ZIPs duplicados",
+    "Modelo neural não baixado; licença e bloqueio documentados nas entregas"
+  ]
+}

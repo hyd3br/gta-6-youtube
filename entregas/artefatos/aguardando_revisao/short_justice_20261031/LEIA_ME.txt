@@ -1,0 +1,13 @@
+Short real de GTA VI — Justice no score original
+49 segundos, 1080x1920, 30 fps, H.264/AAC.
+
+Abra video.mp4 para revisar. A voz é sintética local robótica de contingência.
+Consulte fontes.md e descricao.txt. Não há música oficial ou gameplay.
+
+Aprovar localmente (apenas após assistir e conferir):
+python factory.py --data-dir data/phase3/editorial review short-justice-20261029 approve --checks facts,licenses,audio,subtitles,visuals --note "Sua revisão"
+
+Rejeitar:
+python factory.py --data-dir data/phase3/editorial review short-justice-20261029 reject --note "Motivo"
+
+Nenhuma dessas ações publica no YouTube.

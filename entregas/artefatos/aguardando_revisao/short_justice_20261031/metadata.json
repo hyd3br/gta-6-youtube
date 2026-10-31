@@ -1,0 +1,308 @@
+{
+  "title": "GTA 6: Justice assina a trilha original — confirmado pela Rockstar #Shorts",
+  "thumbnail_title": "GTA 6: JUSTICE NA TRILHA",
+  "format": "short",
+  "created_at": "2026-10-31T22:19:58.355453+00:00",
+  "script_method": "curated_primary_evidence_phase3",
+  "description": "A Rockstar credita a composição do score original de GTA VI ao duo francês Justice. O destaque de 29/10/2026 aparece no site oficial. Explicamos o alcance do anúncio sem extrapolar para todas as músicas das rádios.\n\nFontes consultadas em 31/10/2026:\nhttps://www.rockstargames.com/newswire/article/39ak8a12395591\nhttps://www.rockstargames.com/VI\n\nVoz sintética pt-BR local de contingência (eSpeak NG): robótica, não neural. Arte procedural própria. Não contém gravações de Justice, música oficial, gameplay ou screenshots. Opiniões identificadas como análise.\n\n#GTA6 #GTAVI #Justice #RockstarGames #Shorts",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#Justice",
+    "#RockstarGames",
+    "#Shorts"
+  ],
+  "tags": [
+    "gta 6",
+    "gta vi",
+    "Justice",
+    "trilha original gta 6",
+    "score gta vi"
+  ],
+  "sources": [
+    {
+      "url": "https://www.rockstargames.com/newswire/article/39ak8a12395591",
+      "title": "Grand Theft Auto VI: Original Score by Justice - Rockstar Games",
+      "checked": "2026-10-31T22:12:54.081382+00:00",
+      "sha256": "921cd9370938f6c3d047be1bacc18796120c9beabb88e57a83f65d08990d555c",
+      "published_at": null
+    },
+    {
+      "url": "https://www.rockstargames.com/VI",
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "checked": "2026-10-31T22:12:19.877284+00:00",
+      "sha256": "968929ec98344246ba903d877c5f2a4d0e2878bfd10424c86cec113621750455",
+      "published_at": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "335bda53b5cf5ccb2da5",
+      "key": "score_author",
+      "statement": "A Rockstar credita ao duo francês Justice a composição do score original de GTA VI.",
+      "classification": "confirmed",
+      "source_url": "https://www.rockstargames.com/newswire/article/39ak8a12395591",
+      "source_title": "Grand Theft Auto VI: Original Score by Justice - Rockstar Games",
+      "source_sha256": "921cd9370938f6c3d047be1bacc18796120c9beabb88e57a83f65d08990d555c",
+      "checked_at": "2026-10-31T22:12:54.081382+00:00",
+      "published_at": null,
+      "evidence_sha256": "9528ad4c39ca0eee55043373ea2554cee17df9009d1f565a9e5639b45e8c8b2c",
+      "evidence_reference": "fontes.md#score_author"
+    },
+    {
+      "id": "0db78725cde689c78bb5",
+      "key": "score_date",
+      "statement": "O destaque da página oficial data o anúncio da trilha em 29 de outubro de 2026.",
+      "classification": "confirmed",
+      "source_url": "https://www.rockstargames.com/VI",
+      "source_title": "Grand Theft Auto VI - Rockstar Games",
+      "source_sha256": "968929ec98344246ba903d877c5f2a4d0e2878bfd10424c86cec113621750455",
+      "checked_at": "2026-10-31T22:12:19.877284+00:00",
+      "published_at": "2026-10-29",
+      "evidence_sha256": "72dcc495c09c41a1699d67fe9f04f56b2d21622036068b2ccc9ce03e0ed8eccb",
+      "evidence_reference": "fontes.md#score_date"
+    },
+    {
+      "id": "52934287ece8d3ce3afe",
+      "key": "music_categories",
+      "statement": "O site oficial menciona rádio, soundtrack e score na seção de música.",
+      "classification": "confirmed",
+      "source_url": "https://www.rockstargames.com/VI",
+      "source_title": "Grand Theft Auto VI - Rockstar Games",
+      "source_sha256": "968929ec98344246ba903d877c5f2a4d0e2878bfd10424c86cec113621750455",
+      "checked_at": "2026-10-31T22:12:19.877284+00:00",
+      "published_at": null,
+      "evidence_sha256": "9696d7067cee803caa67ef0915c6bff7403df5dbae4d550a5c360f7e39e24350",
+      "evidence_reference": "fontes.md#music_categories"
+    }
+  ],
+  "scenes": [
+    {
+      "headline": "GTA 6 TEM UMA NOVIDADE MUSICAL",
+      "speech": "Uma novidade de GTA seis que não é sobre mapa nem gráficos: a trilha original.",
+      "classification": "intro",
+      "claim_ids": [],
+      "chapter": "GTA 6 TEM UMA NOVIDADE MUSICAL",
+      "license_notes": "Arte procedural original do projeto; sem gameplay, screenshots, gravações de Justice ou música de terceiros.",
+      "audio_path": "/workspace/gta-6-youtube/work/phase3_justice/voice_01.wav",
+      "audio_sha256": "f1758ff46caa5135c7ff3ebf422ec145dcbf97cfecd71401545d4fb772f8b244",
+      "captions": [
+        {
+          "text": "Uma novidade de GTA seis",
+          "start": 0.0,
+          "end": 1.907
+        },
+        {
+          "text": "que não é sobre mapa",
+          "start": 1.907,
+          "end": 3.26
+        },
+        {
+          "text": "nem gráficos: a trilha original.",
+          "start": 3.26,
+          "end": 5.992471655328798
+        }
+      ]
+    },
+    {
+      "headline": "JUSTICE ASSINA O SCORE",
+      "speech": "Em vinte e nove de outubro, a Rockstar destacou o anúncio: o duo francês Justice compõe a trilha original do jogo.",
+      "classification": "confirmed",
+      "claim_ids": [
+        "335bda53b5cf5ccb2da5",
+        "0db78725cde689c78bb5"
+      ],
+      "chapter": "JUSTICE ASSINA O SCORE",
+      "license_notes": "Arte procedural original do projeto; sem gameplay, screenshots, gravações de Justice ou música de terceiros.",
+      "audio_path": "/workspace/gta-6-youtube/work/phase3_justice/voice_02.wav",
+      "audio_sha256": "44072d52591b07583b982a0b6800073f6939cf697d0e9584c07a0b460e80984d",
+      "captions": [
+        {
+          "text": "Em vinte e nove de",
+          "start": 0.0,
+          "end": 1.404
+        },
+        {
+          "text": "outubro, a Rockstar destacou o",
+          "start": 1.404,
+          "end": 3.644
+        },
+        {
+          "text": "anúncio: o duo francês Justice",
+          "start": 3.644,
+          "end": 6.173
+        },
+        {
+          "text": "compõe a trilha original do",
+          "start": 6.173,
+          "end": 8.083
+        },
+        {
+          "text": "jogo.",
+          "start": 8.083,
+          "end": 8.494603174603174
+        }
+      ]
+    },
+    {
+      "headline": "SCORE NÃO É TODA A RÁDIO",
+      "speech": "Mas atenção: isso não significa que todas as músicas das rádios sejam deles. O próprio site menciona rádio, trilha sonora e score separadamente.",
+      "classification": "fact_and_analysis",
+      "claim_ids": [
+        "52934287ece8d3ce3afe"
+      ],
+      "chapter": "SCORE NÃO É TODA A RÁDIO",
+      "license_notes": "Arte procedural original do projeto; sem gameplay, screenshots, gravações de Justice ou música de terceiros.",
+      "audio_path": "/workspace/gta-6-youtube/work/phase3_justice/voice_03.wav",
+      "audio_sha256": "0b63575e431c7e427ef663f621fc54786eb3f251ebc33380dd7fb5d5d464992d",
+      "captions": [
+        {
+          "text": "Mas atenção: isso não significa",
+          "start": 0.0,
+          "end": 2.603
+        },
+        {
+          "text": "que todas as músicas das",
+          "start": 2.603,
+          "end": 4.284
+        },
+        {
+          "text": "rádios sejam deles. O próprio",
+          "start": 4.284,
+          "end": 6.599
+        },
+        {
+          "text": "site menciona rádio, trilha sonora",
+          "start": 6.599,
+          "end": 9.421
+        },
+        {
+          "text": "e score separadamente.",
+          "start": 9.421,
+          "end": 11.100544217687075
+        }
+      ]
+    },
+    {
+      "headline": "FATO CONFIRMADO × INTERPRETAÇÃO",
+      "speech": "O fato confirmado é o crédito da composição. Minha leitura: vale observar como essa música vai ajudar a construir a identidade de Vice City.",
+      "classification": "fact_and_analysis",
+      "claim_ids": [
+        "335bda53b5cf5ccb2da5"
+      ],
+      "chapter": "FATO CONFIRMADO × INTERPRETAÇÃO",
+      "license_notes": "Arte procedural original do projeto; sem gameplay, screenshots, gravações de Justice ou música de terceiros.",
+      "audio_path": "/workspace/gta-6-youtube/work/phase3_justice/voice_04.wav",
+      "audio_sha256": "8783f0968f1fb97d45fe54ee789c5bc350a393a2fd37fe2f0d5fba126fe18268",
+      "captions": [
+        {
+          "text": "O fato confirmado é o",
+          "start": 0.0,
+          "end": 1.544
+        },
+        {
+          "text": "crédito da composição. Minha leitura:",
+          "start": 1.544,
+          "end": 4.929
+        },
+        {
+          "text": "vale observar como essa música",
+          "start": 4.929,
+          "end": 7.176
+        },
+        {
+          "text": "vai ajudar a construir a",
+          "start": 7.176,
+          "end": 8.905
+        },
+        {
+          "text": "identidade de Vice City.",
+          "start": 8.905,
+          "end": 10.763582766439908
+        }
+      ]
+    },
+    {
+      "headline": "FONTE OFICIAL • ARTE ORIGINAL",
+      "speech": "As fontes e a data da consulta estão na descrição. Aqui usamos arte própria e nenhuma gravação oficial. Você curtiu essa escolha para a trilha?",
+      "classification": "disclosure",
+      "claim_ids": [],
+      "chapter": "FONTE OFICIAL • ARTE ORIGINAL",
+      "license_notes": "Arte procedural original do projeto; sem gameplay, screenshots, gravações de Justice ou música de terceiros.",
+      "audio_path": "/workspace/gta-6-youtube/work/phase3_justice/voice_05.wav",
+      "audio_sha256": "b2c1df77453d3c90708b0ef0ba67fdbec4f27144fbd0dcaf8d87fe9cb0e25e33",
+      "captions": [
+        {
+          "text": "As fontes e a data",
+          "start": 0.0,
+          "end": 1.501
+        },
+        {
+          "text": "da consulta estão na descrição.",
+          "start": 1.501,
+          "end": 4.203
+        },
+        {
+          "text": "Aqui usamos arte própria e",
+          "start": 4.203,
+          "end": 6.22
+        },
+        {
+          "text": "nenhuma gravação oficial. Você curtiu",
+          "start": 6.22,
+          "end": 9.54
+        },
+        {
+          "text": "essa escolha para a trilha?",
+          "start": 9.54,
+          "end": 11.286530612244897
+        }
+      ]
+    }
+  ],
+  "automatic_upload": false,
+  "status": "AGUARDANDO_REVISAO_HUMANA",
+  "warnings": [
+    "Voz local eSpeak NG pt-BR de contingência: robótica, não neural. Rever pronúncia de Justice.",
+    "Modelo neural gratuito não baixado: CDN us.aws.cdn.hf.co bloqueada; alteração de rede não foi salva porque o rascunho não está editável.",
+    "Legendas agrupadas pelos eventos de início de palavras do sintetizador; revisão humana obrigatória.",
+    "Arte procedural original; sem screenshots, gameplay ou gravações de Justice. Não há música de fundo.",
+    "Anúncio de 29/10/2026 segundo o card oficial; consulta em 31/10/2026."
+  ],
+  "word_count": 108,
+  "voice": {
+    "provider": "espeak_ng_local_fallback",
+    "language": "pt-br",
+    "rate_wpm": 145,
+    "quality": "robotic_formant_not_neural",
+    "caption_alignment": "measured_word_start_events_grouped_5",
+    "license_notes": "Motor eSpeak NG incluído no Piper já instalado (GPL); fala sintética original, sem gravação de voz de terceiros.",
+    "paid_api_calls": 0
+  },
+  "duration_seconds": 49.0,
+  "resolution": "1080x1920",
+  "frames_per_second": 30,
+  "chapters": [
+    {
+      "time_seconds": 0.0,
+      "label": "GTA 6 TEM UMA NOVIDADE MUSICAL"
+    },
+    {
+      "time_seconds": 6.3,
+      "label": "JUSTICE ASSINA O SCORE"
+    },
+    {
+      "time_seconds": 15.0,
+      "label": "SCORE NÃO É TODA A RÁDIO"
+    },
+    {
+      "time_seconds": 26.4,
+      "label": "FATO CONFIRMADO × INTERPRETAÇÃO"
+    },
+    {
+      "time_seconds": 37.4,
+      "label": "FONTE OFICIAL • ARTE ORIGINAL"
+    }
+  ],
+  "preview": false
+}

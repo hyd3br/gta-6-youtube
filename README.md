@@ -1,5 +1,9 @@
 # GTA6 Factory — Shorts + vídeos longos (Windows 11)
 
+## Projeto e entregas reunidos
+
+O código, a documentação e os testes estão neste repositório. A pasta [entregas/](entregas/README.md) reúne os vídeos, roteiros, legendas, miniaturas, fontes e relatórios produzidos nas Fases 1–3, incluindo o Short real de 49 segundos e o vídeo longo completo em 1080p. Os materiais continuam aguardando revisão humana; não há publicação automática no YouTube.
+
 ## Fase 2: pesquisa e fila de produção no Linux
 
 O novo `factory.py` conecta pesquisa em fontes primárias, roteiros com evidências, voz neural local gratuita e exportações para revisão humana. Os renderizadores e demos abaixo continuam disponíveis. Consulte [guia da Fase 2](docs/FASE2.md) e [resultados e pendências](docs/FASE2_RESULTADOS.md). Não há upload automático.

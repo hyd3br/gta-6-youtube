@@ -1,0 +1,81 @@
+{
+  "title": "GTA 6: 8 perguntas que podem definir a experiência",
+  "description": "Análise editorial original sobre perguntas que merecem respostas verificáveis a respeito de GTA 6. Este roteiro é ilustrativo: antes de publicar, atualize as fontes e revise as informações com materiais oficiais. Voz sintética por IA.\n\nFontes consultadas:\n- Grand Theft Auto VI — Rockstar Games (site oficial): https://www.rockstargames.com/VI\n- GTA VI — galeria de mídias oficiais: https://www.rockstargames.com/VI/media\n\nEste vídeo contém narração sintética gerada por IA.",
+  "tags": [
+    "gta 6",
+    "gta vi",
+    "grand theft auto vi",
+    "curiosidades gta 6",
+    "análise gta 6"
+  ],
+  "sources": [
+    {
+      "title": "Grand Theft Auto VI — Rockstar Games (site oficial)",
+      "url": "https://www.rockstargames.com/VI",
+      "type": "oficial",
+      "checked": "2026-10-31"
+    },
+    {
+      "title": "GTA VI — galeria de mídias oficiais",
+      "url": "https://www.rockstargames.com/VI/media",
+      "type": "oficial",
+      "checked": "2026-10-31"
+    }
+  ],
+  "chapters": [
+    {
+      "time_seconds": 0.0,
+      "label": "Abertura"
+    },
+    {
+      "time_seconds": 51.5,
+      "label": "O mapa"
+    },
+    {
+      "time_seconds": 102.2,
+      "label": "A população"
+    },
+    {
+      "time_seconds": 152.0,
+      "label": "Personagens"
+    },
+    {
+      "time_seconds": 202.8,
+      "label": "A polícia"
+    },
+    {
+      "time_seconds": 253.5,
+      "label": "A economia"
+    },
+    {
+      "time_seconds": 304.6,
+      "label": "Atividades"
+    },
+    {
+      "time_seconds": 354.8,
+      "label": "Escolhas"
+    },
+    {
+      "time_seconds": 407.5,
+      "label": "Desempenho"
+    },
+    {
+      "time_seconds": 456.8,
+      "label": "Conclusão"
+    }
+  ],
+  "duration_seconds": 511.57,
+  "resolution": "1920x1080",
+  "frames_per_second": 30,
+  "speech_provider": "bundled",
+  "video": "output/aguardando_revisao/fase2_longo_completo_1080p.mp4",
+  "thumbnail": "output/aguardando_revisao/fase2_longo_completo_1080p_thumbnail.jpg",
+  "subtitles": "output/aguardando_revisao/fase2_longo_completo_1080p.srt",
+  "status": "AGUARDANDO_REVISAO_HUMANA",
+  "automatic_upload": false,
+  "warnings": [
+    "Narração de demonstração com voz robótica. Trocar por TTS natural antes de publicar.",
+    "Legendas distribuídas proporcionalmente à fala; revisar a sincronização e corrigir no editor se necessário.",
+    "Conferir informações e direitos de todas as mídias antes de qualquer publicação."
+  ]
+}

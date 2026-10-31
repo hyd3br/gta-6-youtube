@@ -1,0 +1,99 @@
+{
+  "text": "Uma novidade de GTA seis que não é sobre mapa nem gráficos: a trilha original.",
+  "word_events": [
+    {
+      "position": 0,
+      "length": 3,
+      "start": 0.0
+    },
+    {
+      "position": 4,
+      "length": 8,
+      "start": 0.21
+    },
+    {
+      "position": 13,
+      "length": 2,
+      "start": 0.877
+    },
+    {
+      "position": 16,
+      "length": 3,
+      "start": 1.024
+    },
+    {
+      "position": 20,
+      "length": 4,
+      "start": 1.533
+    },
+    {
+      "position": 25,
+      "length": 3,
+      "start": 1.907
+    },
+    {
+      "position": 29,
+      "length": 3,
+      "start": 2.064
+    },
+    {
+      "position": 33,
+      "length": 1,
+      "start": 2.247
+    },
+    {
+      "position": 35,
+      "length": 5,
+      "start": 2.366
+    },
+    {
+      "position": 41,
+      "length": 4,
+      "start": 2.762
+    },
+    {
+      "position": 46,
+      "length": 3,
+      "start": 3.26
+    },
+    {
+      "position": 50,
+      "length": 8,
+      "start": 3.568
+    },
+    {
+      "position": 60,
+      "length": 1,
+      "start": 4.663
+    },
+    {
+      "position": 62,
+      "length": 6,
+      "start": 4.789
+    },
+    {
+      "position": 69,
+      "length": 8,
+      "start": 5.202
+    }
+  ],
+  "cues": [
+    {
+      "text": "Uma novidade de GTA seis",
+      "start": 0.0,
+      "end": 1.907
+    },
+    {
+      "text": "que não é sobre mapa",
+      "start": 1.907,
+      "end": 3.26
+    },
+    {
+      "text": "nem gráficos: a trilha original.",
+      "start": 3.26,
+      "end": 5.992471655328798
+    }
+  ],
+  "seconds": 5.992471655328798,
+  "rate_wpm": 145
+}

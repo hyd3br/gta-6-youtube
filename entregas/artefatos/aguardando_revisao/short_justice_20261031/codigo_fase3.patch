@@ -1,0 +1,159 @@
+From cc9856923a43b525d2442e529f55b56d3a416b01 Mon Sep 17 00:00:00 2001
+From: Hyd3 br <mwjwq6qvzg@privaterelay.appleid.com>
+Date: Sat, 31 Oct 2026 22:23:57 +0000
+Subject: [PATCH] Fix source discovery and vertical captions; document verified
+ Phase 3 Short
+
+---
+ config/sources.json      |  2 +-
+ docs/FASE3_RESULTADOS.md | 77 ++++++++++++++++++++++++++++++++++++++++
+ gta6/production.py       |  2 +-
+ gta6/research.py         |  6 ++++
+ tests/test_factory.py    |  4 +++
+ 5 files changed, 89 insertions(+), 2 deletions(-)
+ create mode 100644 docs/FASE3_RESULTADOS.md
+
+diff --git a/config/sources.json b/config/sources.json
+index fa5e4ea..7681cfa 100644
+--- a/config/sources.json
++++ b/config/sources.json
+@@ -2,7 +2,7 @@
+   "seeds": [
+     "https://www.rockstargames.com/VI/",
+     "https://www.rockstargames.com/newswire",
+-    "https://www.take2games.com/ir/news"
++    "https://www.take2games.com/ir/press-releases"
+   ],
+   "max_pages": 12
+ }
+diff --git a/docs/FASE3_RESULTADOS.md b/docs/FASE3_RESULTADOS.md
+new file mode 100644
+index 0000000..a3227c3
+--- /dev/null
++++ b/docs/FASE3_RESULTADOS.md
+@@ -0,0 +1,77 @@
++# Fase 3 — primeiro Short real para revisão
++
++Produzido em 31/10/2026, sem API paga e sem publicação.
++
++## Ambiente e preservação
++
++- O teste inicial de execução completou antes de qualquer alteração.
++- Commit `7f70d1587eee2a11e136ce03d55b84fb71e63ac8` e os 16 arquivos da Fase 2 confirmados.
++- Python 3.12.14, FFmpeg/FFprobe 7.1.5, Pillow 13.0.0, python-dotenv 1.2.4, openai 3.42.0, Piper 1.8.0 e ONNX Runtime 1.31.1 disponíveis. `pip check` passou; nada foi reinstalado.
++- Os renderizadores originais `make_short.py`/`make_long.py`, demos, vídeos longos e Shorts anteriores foram preservados.
++
++## Fontes testadas
++
++| Destino | Resultado |
++| --- | --- |
++| https://www.rockstargames.com/VI/ | HTTP 200, conteúdo editorial e destaques legíveis |
++| https://www.rockstargames.com/newswire | HTTP 200; listagem depende de JavaScript, sem artigos no HTML inicial |
++| https://www.take2games.com/ir/news | HTTP 404: rota antiga, não bloqueio de rede |
++| https://ir.take2games.com/news-releases | HTTP 200 após redirecionar para `/ir/press-releases` |
++| Hugging Face, metadados e MODEL_CARD da voz pt_BR-faber-medium | HTTP 200 |
++| Arquivo de pesos da voz | Redireciona para `us.aws.cdn.hf.co`; CONNECT 403 pelo proxy |
++
++A semente da Take-Two foi corrigida para a rota atual. A extração de fatos passou a ignorar páginas de índice: um título de GTA próximo de uma plataforma de outro jogo não deve gerar uma confirmação falsa. Foi acrescentado um teste de regressão. As legendas verticais foram elevadas para não sobrepor o rodapé.
++
++## Pauta verificada
++
++**Justice assina o score original de GTA VI.**
++
++- Anúncio: https://www.rockstargames.com/newswire/article/39ak8a12395591
++- Contexto e data do destaque: https://www.rockstargames.com/VI
++- Data exibida pela Rockstar no card correspondente: **29/10/2026**.
++- Consulta nesta execução: **31/10/2026** (timestamps UTC e hashes no relatório do vídeo).
++
++O artigo fornece o crédito musical em sua descrição editorial no HTML. Seu corpo completo depende de JavaScript. A data veio do card oficial correspondente, não de um campo de publicação inventado. O Short separa o crédito confirmado da interpretação sobre identidade musical; não afirma que Justice criou todas as faixas de rádio. A Take-Two foi testada, mas não foi usada para atribuir a autoria da música.
++
++## Arquivo produzido
++
++`output/aguardando_revisao/short_justice_20261031/video.mp4`
++
++- **49 segundos**, **1080×1920**, **30 fps**, H.264/AAC, áudio estéreo a 48 kHz.
++- Roteiro original de **108 palavras**, cinco cenas com movimento suave, cortes e fades.
++- **23 legendas**, agrupadas pelos eventos reais de início de palavras do sintetizador.
++- Narração sintética pt-BR local **eSpeak NG, robótica e não neural**.
++- Arte procedural original, sem screenshots, gameplay, músicas de Justice ou outras gravações de terceiros.
++- Título, descrição, hashtags, SRT, thumbnail, capítulos, relatório de fontes, manifesto e checklist na mesma pasta.
++- Narrações originais e dados de tempo também incluídos no pacote de revisão.
++
++**Estado: AGUARDANDO_REVISAO_HUMANA.** Não foi aprovado automaticamente. A auditoria de fontes e a audição da voz continuam necessárias.
++
++## Qualidade e testes
++
++- **31 testes passaram**, incluindo exportações reais com FFmpeg e a regressão do índice corporativo.
++- Arquivo final decodificado integralmente, com vídeo e áudio sem erros.
++- Resolução, codecs, FPS e duração conferidos com FFprobe.
++- Texto das legendas confrontado com o roteiro; eventos do sintetizador não cortam palavras e os WAVs contêm sinal audível sem saturação de amostras.
++- Frames de inspeção visual conferidos; sobreposição inicial de legenda com rodapé corrigida e exportação refeita.
++- O frameamento não substitui assistir e ouvir o vídeo inteiro; naturalidade e pronúncia de “Justice” precisam da revisão do criador.
++
++## Pendência para a voz neural
++
++A licença da voz Faber declara dataset **CC0**, mas os pesos não puderam ser baixados. O modelo neural não foi usado. Para não depender de uma API paga, o vídeo foi concluído com uma voz local de contingência já instalada.
++
++O hostname exato necessário é **`us.aws.cdn.hf.co`**. A tentativa de acrescentá-lo à lista permitida retornou `draft_not_editable`; uma nova leitura manteve o rascunho antigo. **O salvamento dessa mudança não foi confirmado**. Nenhuma restrição foi contornada e TLS/checksums foram preservados.
++
++A proposta aditiva, preservando os cinco domínios existentes, está em `pending_network_change.json` na pasta do Short. Aplique o domínio nas configurações de rede do ambiente para substituir posteriormente a voz robótica por Piper gratuito. Se o produto não permitir editar esse rascunho, use um novo chat de configuração a partir das configurações do ambiente e leve a proposta salva. Não é necessário autorizar uma API paga para esse caminho.
++
++## Aprovar ou rejeitar localmente
++
++O Short está em uma fila separada, preservando a base anterior:
++
++```bash
++python factory.py --data-dir data/phase3/editorial queue
++python factory.py --data-dir data/phase3/editorial review short-justice-20261029 approve --checks facts,licenses,audio,subtitles,visuals --note "Sua revisão após assistir"
++python factory.py --data-dir data/phase3/editorial review short-justice-20261029 reject --note "Motivo da rejeição"
++```
++
++Esses comandos apenas registram a decisão; não fazem upload. A receita e as cópias completas das fontes permanecem em `work/phase3_justice` e `data/phase3` para auditoria local. Os snapshots oficiais completos não são redistribuídos no pacote de revisão.
+diff --git a/gta6/production.py b/gta6/production.py
+index 1bd0ed2..ecaa2eb 100644
+--- a/gta6/production.py
++++ b/gta6/production.py
+@@ -168,7 +168,7 @@ def render(script,folder,*,preview=False,preset='veryfast'):
+         captions=work/f'captions_{i:02d}.srt'
+         captions.write_text(srt_text(cues),encoding='utf-8')
+         # A gentle moving crop plus short fades, hard cuts between editorial scenes.
+-        style=("Fontname=DejaVu Sans,Fontsize=9,Outline=1,Shadow=0,Alignment=2,MarginV=42,MarginL=18,MarginR=18"
++        style=("Fontname=DejaVu Sans,Fontsize=9,Outline=1,Shadow=0,Alignment=2,MarginV=60,MarginL=18,MarginR=18"
+                if is_short else "Fontname=DejaVu Sans,Fontsize=19,Outline=2,Shadow=0,Alignment=2,MarginV=36")
+         relative=captions.relative_to(ROOT).as_posix()
+         vf=(f'scale={w+40}:{h+40},crop={w}:{h}:x=20+18*sin(t*0.30):y=20+18*cos(t*0.23),'
+diff --git a/gta6/research.py b/gta6/research.py
+index f3ffbb2..e4febaf 100644
+--- a/gta6/research.py
++++ b/gta6/research.py
+@@ -152,6 +152,12 @@ def extract_facts(page):
+         raise ValueError('Proveniência primária inválida.')
+     # Facts must be in a GTA VI-specific page/body, not an unrelated corporate index.
+     text = page['text']
++    if urlsplit(page['url']).path.rstrip('/').lower() in (
++        '/newswire', '/ir/news', '/ir/press-releases', '/news-releases'
++    ):
++        # An index can place a GTA headline next to another game's platforms.
++        # Follow its article links; never attribute neighboring entries to GTA VI.
++        return []
+     if not re.search(r'Grand Theft Auto VI|GTA\s*(?:VI|6)|/VI(?:/|$)', text + ' ' + page['url'], re.I):
+         return []
+     facts = []
+diff --git a/tests/test_factory.py b/tests/test_factory.py
+index ba038f4..fcfc37a 100644
+--- a/tests/test_factory.py
++++ b/tests/test_factory.py
+@@ -62,6 +62,10 @@ class ResearchTests(unittest.TestCase):
+     def test_non_gta_page_is_not_used(self):
+         page=parse_page('<title>Other game</title><p>'+('PlayStation 5 for some other game. '*10)+'</p>','https://www.take2games.com/ir/news')
+         self.assertEqual(extract_facts(page),[])
++    def test_corporate_index_does_not_attribute_neighboring_game_platforms(self):
++        raw='<title>Press releases</title><p>Rockstar Games Announces Grand Theft Auto VI.</p><p>Rollerdrome Now Available on Xbox Series X|S and Windows PC. This is a synthetic offline index fixture, not evidence for production.</p>'
++        page=parse_page(raw,'https://www.take2games.com/ir/press-releases')
++        self.assertEqual(extract_facts(page),[])
+     def test_expired_facts_are_not_used(self):
+         page=self.add()
+         page['fetched_at']=(datetime.now(timezone.utc)-timedelta(hours=49)).isoformat()
+-- 
+2.52.0
+
