@@ -1,0 +1,12 @@
+Você está no projeto GTA6 Factory para Windows 11. Ele cria Shorts 1080x1920 e vídeos longos 1920x1080 sobre GTA 6.
+
+1. Leia integralmente README.md, AGENTS.md, make_short.py, make_long.py e os dois roteiros JSON.
+2. Verifique Python, dependências, FFmpeg/ffprobe e disponibilidade de espaço.
+3. Execute make_short.py --tts bundled --width 540 --height 960 --fps 24 --output output/teste_short_codex.mp4.
+4. Execute make_long.py --dry-run.
+5. Execute make_long.py --tts bundled --preview-scenes 2 --width 640 --height 360 --fps 24 --output output/aguardando_revisao/teste_codex_longo.mp4.
+6. Valide áudio, formato vertical e horizontal, transcrição SRT, capítulos, thumbnail, duração e checklist. Corrija bugs e reteste.
+7. Não faça qualquer upload ou publicação. Não consuma APIs pagas nem use materiais de terceiros sem aprovação.
+8. Depois, proponha um roteiro de implementação para fila editorial: fontes Rockstar (links/datas), revisão de fatos, separação entre notícia/teoria, produção de 1 longo e 2 Shorts derivados, revisão antes de TTS pago, e revisão manual antes de YouTube Studio.
+9. Priorize qualidade de roteiro e edição; não use títulos enganosos, downloads de mídias não autorizadas nem conteúdo repetitivo em massa.
+10. O modelo TTS atual da Speech API está depreciado; proponha migração Realtime validada na documentação vigente, sem trocar apenas a variável de modelo.

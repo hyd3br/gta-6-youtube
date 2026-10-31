@@ -1,0 +1,40 @@
+{
+  "title": "GTA 6: 8 perguntas que podem definir a experiência",
+  "description": "Análise editorial original sobre perguntas que merecem respostas verificáveis a respeito de GTA 6. Este roteiro é ilustrativo: antes de publicar, atualize as fontes e revise as informações com materiais oficiais. Voz sintética por IA.\n\nFontes:\nGrand Theft Auto VI — Rockstar Games (site oficial): https://www.rockstargames.com/VI\nGTA VI — galeria de mídias oficiais: https://www.rockstargames.com/VI/media\n\nNarração sintética de demonstração.",
+  "tags": [
+    "gta 6",
+    "gta vi",
+    "grand theft auto vi",
+    "curiosidades gta 6",
+    "análise gta 6"
+  ],
+  "sources": [
+    {
+      "title": "Grand Theft Auto VI — Rockstar Games (site oficial)",
+      "url": "https://www.rockstargames.com/VI",
+      "type": "oficial",
+      "checked": "2026-10-31"
+    },
+    {
+      "title": "GTA VI — galeria de mídias oficiais",
+      "url": "https://www.rockstargames.com/VI/media",
+      "type": "oficial",
+      "checked": "2026-10-31"
+    }
+  ],
+  "video": "output/aguardando_revisao/episodio_completo_teste_360p.mp4",
+  "subtitles": "output/aguardando_revisao/episodio_completo_teste_360p.srt",
+  "thumbnail": "output/aguardando_revisao/episodio_completo_teste_360p_thumbnail.jpg",
+  "chapters_text_file": "output/aguardando_revisao/episodio_completo_teste_360p_capitulos.txt",
+  "duration_seconds": 511.625,
+  "resolution": "640x360",
+  "status": "AGUARDANDO_REVISAO_HUMANA",
+  "automatic_upload": false,
+  "subtitle_delivery": "Arquivo SRT separado; não gravado no MP4 do teste completo em 360p",
+  "warnings": [
+    "Voz sintética simples de demonstração — substitua antes de publicar.",
+    "Imagens ilustrativas não são imagens oficiais de GTA 6.",
+    "Revisar fontes, direitos autorais e sincronização aproximada das legendas.",
+    "Esta versão é teste 360p; para 1080p, execute make_long.py sem flags de resolução."
+  ]
+}
